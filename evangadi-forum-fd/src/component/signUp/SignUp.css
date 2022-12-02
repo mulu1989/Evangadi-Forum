@@ -1,0 +1,71 @@
+.signup {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    padding-top: 3rem;
+  }
+  .signup a, .about{
+    text-decoration: none;
+    color: #da7000;
+    font-size: 0.9rem;
+  }
+  .signup__form, .signup__about {
+    width: 50vw;
+    margin: 2rem 0.5rem;
+    padding: 2rem;
+  }
+  .signup__form {
+    text-align: center;
+    margin-left: 10rem;
+    background-color: #F5F5F5;
+    box-shadow: #000;
+    border-radius: 10px;
+  }
+  .signup__about {
+    text-align: left;
+    margin-right: 15rem;
+    font-size: 1rem;
+  }
+  p {
+    padding: 0.8rem;
+  }
+.bttn {
+    color: #fff !important;
+    border: none;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 6px;
+    padding: 8px 25px !important;
+    cursor: pointer;
+    background-color: #516cf0;
+    border-color: #3a59ef;
+    border-radius: 4px !important;
+  }
+
+  .signup__about > a > button {
+    color: #fff !important;
+    background-color: #fe8402;
+    border: none;
+    border-radius: 6px;
+    text-transform: uppercase;
+    padding: 8px 25px !important;
+    cursor: pointer;
+  }
+  .errorMsg {
+    color: red;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .signup__form input {
+    color: #333333;
+    font-size: 16px;
+    height: 10px;
+    padding: 12px;
+    outline: none;
+    border: 0 none;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
